@@ -1,0 +1,2 @@
+playsound entity.villager.ambient master @s
+give @s wooden_shovel[custom_name='["",{"text":"ᴊᴇʀʀʏ ꜱʜᴏᴠᴇʟ","italic":false,"color":"#964b00"}]',enchantment_glint_override=true,attribute_modifiers={modifiers:[{type:"player.block_break_speed",amount:-0.8,slot:mainhand,operation:add_value,id:"minecraft:1734631000810"}],show_in_tooltip:false},can_break={predicates:[{blocks:"minecraft:sand"}],show_in_tooltip:false},unbreakable={show_in_tooltip:false},custom_data={jerry_shovel:1b},hide_additional_tooltip={}]

@@ -1,0 +1,1 @@
+$tellraw $(sel) [{"text":"[", "color":"gray"}, {"text":"ɪɴꜰᴏ", "color":"green"}, {"text":"] ", "color":"gray"},$(msg)]

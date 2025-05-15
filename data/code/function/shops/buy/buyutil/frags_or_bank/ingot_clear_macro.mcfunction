@@ -1,0 +1,2 @@
+$clear @s *[custom_data~{sand_ingot:1b}] $(ingotclear)
+$give @s yellow_dye[custom_name='{"color":"yellow","italic":false,"text":"Sand Fragment"}',custom_data={sand_frag:1b},hide_additional_tooltip={}] $(fraggive)

@@ -1,0 +1,1 @@
+$clear @s *[custom_data~{sand_ingot:1b}] $(ingotclear)

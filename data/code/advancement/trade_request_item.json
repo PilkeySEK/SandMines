@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:custom_data": "{trade_request_item:true}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "code:player/advancement_listeners/trade_request_item"
+	}
+}

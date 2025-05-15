@@ -1,0 +1,1 @@
+give @s iron_nugget[item_name='{"text": "ᴄᴏᴍᴍᴏɴ ᴛʀᴇᴀꜱᴜʀᴇ","color": "gold"}',custom_data={common_treasure:true}]

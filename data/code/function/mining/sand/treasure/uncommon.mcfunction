@@ -1,0 +1,1 @@
+give @s iron_ingot[item_name='{"text": "ᴜɴᴄᴏᴍᴍᴏɴ ᴛʀᴇᴀꜱᴜʀᴇ","color": "gold"}',custom_data={uncommon_treasure:true}]

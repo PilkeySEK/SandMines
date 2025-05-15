@@ -1,0 +1,1 @@
+execute unless entity @e[type=item,distance=...3] run summon item ~ ~ ~ {Age:5950,PickupDelay:32767,Item:{id:"minecraft:gold_ingot",count:1},NoGravity:true}

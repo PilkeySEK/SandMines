@@ -1,0 +1,1 @@
+give @s raw_gold[item_name='{"text": "ʀᴀʀᴇ ᴛʀᴇᴀꜱᴜʀᴇ","color": "gold"}',custom_data={rare_treasure:true}]

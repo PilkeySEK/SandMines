@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\": \"ᴜɴᴄᴏᴍᴍᴏɴ ᴛʀᴇᴀꜱᴜʀᴇ\",\"color\":\"gold\"}",
+                  "minecraft:custom_data": {
+                    "uncommon_treasure": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 99,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\": \"Rivet\", \"color\": \"gray\"}",
+                  "minecraft:custom_data": {
+                    "rivet": true
+                  }
+                }
+              }
+            ],
+            "conditions": []
+          }
+        ]
+      }
+    ]
+  }

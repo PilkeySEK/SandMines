@@ -1,0 +1,1 @@
+$data modify storage egui:menus data[{id:$(id)}].items[].components."minecraft:custom_data".gclear set value 1b

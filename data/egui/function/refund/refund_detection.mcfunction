@@ -1,0 +1,29 @@
+execute unless entity @s[tag=echest.storing] run return 0
+return 0
+$execute unless data entity @s EnderItems[{Slot:0b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:0b}] run function egui:refund/refunding_start {slot:0}
+$execute unless data entity @s EnderItems[{Slot:1b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:1b}] run function egui:refund/refunding_start {slot:1}
+$execute unless data entity @s EnderItems[{Slot:2b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:2b}] run function egui:refund/refunding_start {slot:2}
+$execute unless data entity @s EnderItems[{Slot:3b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:3b}] run function egui:refund/refunding_start {slot:3}
+$execute unless data entity @s EnderItems[{Slot:4b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:4b}] run function egui:refund/refunding_start {slot:4}
+$execute unless data entity @s EnderItems[{Slot:5b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:5b}] run function egui:refund/refunding_start {slot:5}
+$execute unless data entity @s EnderItems[{Slot:6b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:6b}] run function egui:refund/refunding_start {slot:6}
+$execute unless data entity @s EnderItems[{Slot:7b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:7b}] run function egui:refund/refunding_start {slot:7}
+$execute unless data entity @s EnderItems[{Slot:8b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:8b}] run function egui:refund/refunding_start {slot:8}
+$execute unless data entity @s EnderItems[{Slot:9b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:9b}] run function egui:refund/refunding_start {slot:9}
+$execute unless data entity @s EnderItems[{Slot:10b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:10b}] run function egui:refund/refunding_start {slot:10}
+$execute unless data entity @s EnderItems[{Slot:11b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:11b}] run function egui:refund/refunding_start {slot:11}
+$execute unless data entity @s EnderItems[{Slot:12b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:12b}] run function egui:refund/refunding_start {slot:12}
+$execute unless data entity @s EnderItems[{Slot:13b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:13b}] run function egui:refund/refunding_start {slot:13}
+$execute unless data entity @s EnderItems[{Slot:14b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:14b}] run function egui:refund/refunding_start {slot:14}
+$execute unless data entity @s EnderItems[{Slot:15b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:15b}] run function egui:refund/refunding_start {slot:15}
+$execute unless data entity @s EnderItems[{Slot:16b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:16b}] run function egui:refund/refunding_start {slot:16}
+$execute unless data entity @s EnderItems[{Slot:17b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:17b}] run function egui:refund/refunding_start {slot:17}
+$execute unless data entity @s EnderItems[{Slot:18b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:18b}] run function egui:refund/refunding_start {slot:18}
+$execute unless data entity @s EnderItems[{Slot:19b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:19b}] run function egui:refund/refunding_start {slot:19}
+$execute unless data entity @s EnderItems[{Slot:20b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:20b}] run function egui:refund/refunding_start {slot:20}
+$execute unless data entity @s EnderItems[{Slot:21b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:21b}] run function egui:refund/refunding_start {slot:21}
+$execute unless data entity @s EnderItems[{Slot:22b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:22b}] run function egui:refund/refunding_start {slot:22}
+$execute unless data entity @s EnderItems[{Slot:23b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:23b}] run function egui:refund/refunding_start {slot:23}
+$execute unless data entity @s EnderItems[{Slot:24b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:24b}] run function egui:refund/refunding_start {slot:24}
+$execute unless data entity @s EnderItems[{Slot:25b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:25b}] run function egui:refund/refunding_start {slot:25}
+$execute unless data entity @s EnderItems[{Slot:26b}].components."minecraft:custom_data".gclear if data storage egui:menus data[{id:$(id)}].items[{Slot:26b}] run function egui:refund/refunding_start {slot:26}
