@@ -31,7 +31,7 @@ execute as @e[type=item] if data entity @s Thrower run data modify entity @s Own
 
 ## Shop tick
 # using the distance=..6 for performance reasons
-execute as @e[type=chest_boat, tag=shop_marker] at @s if entity @a[distance=..6] run function code:shops/tick
+execute as @e[type=acacia_chest_boat, tag=shop_marker] at @s if entity @a[distance=..6] run function code:shops/tick
 
 ## Player Tick
 execute as @a run function code:player/player_tick
@@ -44,8 +44,8 @@ clear Hakubia light_gray_glazed_terracotta
 effect give @a[tag=protected] resistance 1 255 true
 effect give @a[tag=protected] weakness 1 255 true
 effect give @a[tag=protected] saturation 1 0 true
-execute as @a[tag=protected] run attribute @s generic.knockback_resistance base set 1
-execute as @a[tag=!protected] run attribute @s generic.knockback_resistance base set 0
+execute as @a[tag=protected] run attribute @s knockback_resistance base set 1
+execute as @a[tag=!protected] run attribute @s knockback_resistance base set 0
 
 
 function code:misc/vote_ad

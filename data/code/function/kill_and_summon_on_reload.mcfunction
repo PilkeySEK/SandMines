@@ -1,21 +1,21 @@
-kill @e[type=chest_boat, tag=shop_marker]
+kill @e[type=acacia_chest_boat, tag=shop_marker]
 # -93 should be about the location ig ;-;
-summon chest_boat -93 65 0 {Tags:["shop_marker","shop0","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -93 65 0 {Tags:["shop_marker","shop0","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -93 65 0 {Tags:["shop_marker","shop1","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -93 65 0 {Tags:["shop_marker","shop1","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -6 64 -73 {Tags:["shop_marker","shop2","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -6 64 -73 {Tags:["shop_marker","shop2","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 0 64 -48 {Tags:["shop_marker","shop3","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 0 64 -48 {Tags:["shop_marker","shop3","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -3 58 -70 {Tags:["shop_marker","shop4","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat -3 58 -70 {Tags:["shop_marker","shop4","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 0 89 -84 {Tags:["shop_marker","shop5","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 0 89 -84 {Tags:["shop_marker","shop5","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 59 64 68 {Tags:["shop_marker","shop6","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 59 64 68 {Tags:["shop_marker","shop6","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 17.5 65 64.5 {Tags:["shop_marker","shop7","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
-summon chest_boat 17.5 65 64.5 {Tags:["shop_marker","shop7","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,Type:"acacia",CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -93 65 0 {Tags:["shop_marker","shop0","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -93 65 0 {Tags:["shop_marker","shop0","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -93 65 0 {Tags:["shop_marker","shop1","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -93 65 0 {Tags:["shop_marker","shop1","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -6 64 -73 {Tags:["shop_marker","shop2","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -6 64 -73 {Tags:["shop_marker","shop2","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 0 64 -48 {Tags:["shop_marker","shop3","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 0 64 -48 {Tags:["shop_marker","shop3","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -3 58 -70 {Tags:["shop_marker","shop4","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat -3 58 -70 {Tags:["shop_marker","shop4","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 0 89 -84 {Tags:["shop_marker","shop5","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 0 89 -84 {Tags:["shop_marker","shop5","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 59 64 68 {Tags:["shop_marker","shop6","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 59 64 68 {Tags:["shop_marker","shop6","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 17.5 65 64.5 {Tags:["shop_marker","shop7","upper"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
+summon acacia_chest_boat 17.5 65 64.5 {Tags:["shop_marker","shop7","lower"],NoGravity:1b,Silent:1b,Invulnerable:1b,CustomName:'{"color":"blue","text":"Shop"}',Passengers:[{id:"minecraft:marker"}]}
 
 # yes
 function code:shops/refill/refill_start
